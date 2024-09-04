@@ -1,5 +1,12 @@
-.container {
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
     margin: 60px;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
