@@ -1,4 +1,4 @@
 import axios from "axios";
 
 export const saveData = (text: string) =>
-  axios.post("http://localhost:8000", { text });
+  axios.post(import.meta.env.VITE_BACKEND_URL, { text });
